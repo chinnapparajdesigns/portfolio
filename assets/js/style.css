@@ -1,25 +1,25 @@
 /*-----------------------------------*\
-#style.css
+  #style.css
 \*-----------------------------------*/
 
 
 /**
-* copyright 2022 @codewithsadee
-*/
+ * copyright 2022 @codewithsadee
+ */
 
 
 
 
 
 /*-----------------------------------*\
-#CUSTOM PROPERTY
+  #CUSTOM PROPERTY
 \*-----------------------------------*/
 
 :root {
 
   /**
-* colors
-*/
+   * colors
+   */
 
   /* gradient */
 
@@ -58,8 +58,8 @@
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
   /**
-* typography
-*/
+   * typography
+   */
 
   /* font-family */
   --ff-poppins: 'Poppins', sans-serif;
@@ -81,8 +81,8 @@
   --fw-600: 600;
 
   /**
-* shadow
-*/
+   * shadow
+   */
 
   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
   --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
@@ -91,8 +91,8 @@
   --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
 
   /**
-* transition
-*/
+   * transition
+   */
 
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
@@ -104,7 +104,7 @@
 
 
 /*-----------------------------------*\
-#RESET
+  #RESET
 \*-----------------------------------*/
 
 *,
@@ -170,7 +170,7 @@ body {
 
 
 /*-----------------------------------*\
-#REUSED STYLE
+  #REUSED STYLE
 \*-----------------------------------*/
 
 .sidebar,
@@ -324,7 +324,7 @@ article.active {
 
 
 /*-----------------------------------*\
-#MAIN
+  #MAIN
 \*-----------------------------------*/
 
 main {
@@ -338,7 +338,7 @@ main {
 
 
 /*-----------------------------------*\
-#SIDEBAR
+  #SIDEBAR
 \*-----------------------------------*/
 
 .sidebar {
@@ -490,7 +490,7 @@ main {
 
 
 /*-----------------------------------*\
-#NAVBAR
+  #NAVBAR
 \*-----------------------------------*/
 
 .navbar {
@@ -535,7 +535,7 @@ main {
 
 
 /*-----------------------------------*\
-#ABOUT
+  #ABOUT
 \*-----------------------------------*/
 
 .about .article-title {
@@ -556,8 +556,8 @@ main {
 
 
 /**
-* #service 
-*/
+ * #service 
+ */
 
 .service {
   margin-bottom: 35px;
@@ -616,8 +616,8 @@ main {
 
 
 /**
-* #testimonials 
-*/
+ * #testimonials 
+ */
 
 .testimonials {
   margin-bottom: 30px;
@@ -674,8 +674,8 @@ main {
 
 
 /**
-* #testimonials-modal
-*/
+ * #testimonials-modal
+ */
 
 .modal-container {
   position: fixed;
@@ -798,8 +798,8 @@ main {
 
 
 /**
-* #clients 
-*/
+ * #clients 
+ */
 
 .clients {
   margin-bottom: 15px;
@@ -840,7 +840,7 @@ main {
 
 
 /*-----------------------------------*\
-#RESUME
+  #RESUME
 \*-----------------------------------*/
 
 .article-title {
@@ -849,16 +849,11 @@ main {
 
 
 /**
-* education and experience 
-*/
+ * education and experience 
+ */
 
-/* .timeline {
+.timeline {
   margin-bottom: 30px;
-} */
-
-a.form-btn {
-  margin-top: 30px;
-  margin-right: auto;
 }
 
 .timeline .title-wrapper {
@@ -923,8 +918,8 @@ a.form-btn {
 
 
 /**
-* skills 
-*/
+ * skills 
+ */
 
 .skills-title {
   margin-bottom: 20px;
@@ -970,7 +965,7 @@ a.form-btn {
 
 
 /*-----------------------------------*\
-#PORTFOLIO
+  #PORTFOLIO
 \*-----------------------------------*/
 
 .filter-list {
@@ -1152,7 +1147,7 @@ a.form-btn {
 
 
 /*-----------------------------------*\
-#BLOG
+  #BLOG
 \*-----------------------------------*/
 
 .blog-posts {
@@ -1248,7 +1243,7 @@ a.form-btn {
 
 
 /*-----------------------------------*\
-#CONTACT
+  #CONTACT
 \*-----------------------------------*/
 
 .mapbox {
@@ -1389,18 +1384,18 @@ strong {
 
 
 /*-----------------------------------*\
-#RESPONSIVE
+  #RESPONSIVE
 \*-----------------------------------*/
 
 /**
-* responsive larger than 450px screen
-*/
+ * responsive larger than 450px screen
+ */
 
 @media (min-width: 450px) {
 
   /**
-* client
-*/
+   * client
+   */
 
   .clients-item {
     min-width: calc(33.33% - 10px);
@@ -1409,8 +1404,8 @@ strong {
 
 
   /**
-* #PORTFOLIO, BLOG 
-*/
+   * #PORTFOLIO, BLOG 
+   */
 
   .project-img,
   .blog-banner-box {
@@ -1424,20 +1419,20 @@ strong {
 
 
 /**
-* responsive larger than 580px screen
-*/
+ * responsive larger than 580px screen
+ */
 
 @media (min-width: 580px) {
 
   /**
-* CUSTOM PROPERTY
-*/
+   * CUSTOM PROPERTY
+   */
 
   :root {
 
     /**
-  * typography
-  */
+     * typography
+     */
 
     --fs-1: 32px;
     --fs-2: 24px;
@@ -1452,8 +1447,8 @@ strong {
 
 
   /**
-* #REUSED STYLE
-*/
+   * #REUSED STYLE
+   */
 
   .sidebar,
   article {
@@ -1482,8 +1477,8 @@ strong {
 
 
   /**
-* #MAIN
-*/
+   * #MAIN
+   */
 
   main {
     margin-top: 60px;
@@ -1493,8 +1488,8 @@ strong {
 
 
   /**
-* #SIDEBAR
-*/
+   * #SIDEBAR
+   */
 
   .sidebar {
     max-height: 180px;
@@ -1515,10 +1510,6 @@ strong {
 
   .avatar-box img {
     width: 120px;
-    height: 120px;
-    border-radius: 30px;
-    object-fit: cover;
-    object-position: top;
   }
 
   .info-content .name {
@@ -1560,8 +1551,8 @@ strong {
 
 
   /**
-* #NAVBAR
-*/
+   * #NAVBAR
+   */
 
   .navbar {
     border-radius: 20px 20px 0 0;
@@ -1578,8 +1569,8 @@ strong {
 
 
   /**
-* #ABOUT
-*/
+   * #ABOUT
+   */
 
   .about .article-title {
     margin-bottom: 20px;
@@ -1697,8 +1688,8 @@ strong {
 
 
   /**
-* #RESUME
-*/
+   * #RESUME
+   */
 
   .timeline-list {
     margin-left: 65px;
@@ -1721,8 +1712,8 @@ strong {
 
 
   /**
-* #PORTFOLIO, BLOG
-*/
+   * #PORTFOLIO, BLOG
+   */
 
   .project-img,
   .blog-banner-box {
@@ -1740,8 +1731,8 @@ strong {
 
 
   /**
-* #CONTACT
-*/
+   * #CONTACT
+   */
 
   .mapbox {
     height: 380px;
@@ -1772,31 +1763,19 @@ strong {
 
 }
 
-@media (max-width: 579px) {
-  .avatar-box img {
-    width: 80px;
-    height: 80px;
-    border-radius: 20px;
-    object-fit: cover;
-    object-position: top;
-  }
 
-  .project-img {
-    height: 100%;
-  }
-}
 
 
 
 /**
-* responsive larger than 768px screen
-*/
+ * responsive larger than 768px screen
+ */
 
 @media (min-width: 768px) {
 
   /**
-* REUSED STYLE
-*/
+   * REUSED STYLE
+   */
 
   .sidebar,
   article {
@@ -1810,8 +1789,8 @@ strong {
 
 
   /**
-* SIDEBAR
-*/
+   * SIDEBAR
+   */
 
   .contacts-list {
     grid-template-columns: 1fr 1fr;
@@ -1821,8 +1800,8 @@ strong {
 
 
   /**
-* NAVBAR
-*/
+   * NAVBAR
+   */
 
   .navbar-link {
     --fs-8: 15px;
@@ -1831,8 +1810,8 @@ strong {
 
 
   /**
-* ABOUT
-*/
+   * ABOUT
+   */
 
   /* testimonials modal */
 
@@ -1848,8 +1827,8 @@ strong {
 
 
   /**
-* PORTFOLIO
-*/
+   * PORTFOLIO
+   */
 
   .article-title {
     padding-bottom: 20px;
@@ -1892,8 +1871,8 @@ strong {
 
 
   /**
-* CONTACT
-*/
+   * CONTACT
+   */
 
   .input-wrapper {
     grid-template-columns: 1fr 1fr;
@@ -1911,20 +1890,20 @@ strong {
 
 
 /**
-* responsive larger than 1024px screen
-*/
+ * responsive larger than 1024px screen
+ */
 
 @media (min-width: 1024px) {
 
   /**
-* CUSTOM PROPERTY
-*/
+   * CUSTOM PROPERTY
+   */
 
   :root {
 
     /**
-* shadow
-*/
+    * shadow
+    */
 
     --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
     --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
@@ -1935,8 +1914,8 @@ strong {
 
 
   /**
-* REUSED STYLE
-*/
+   * REUSED STYLE
+   */
 
   .sidebar,
   article {
@@ -1947,8 +1926,8 @@ strong {
 
 
   /**
-* MAIN 
-*/
+   * MAIN 
+   */
 
   main {
     margin-bottom: 60px;
@@ -1963,8 +1942,8 @@ strong {
 
 
   /**
-* NAVBAR
-*/
+   * NAVBAR
+   */
 
   .navbar {
     position: absolute;
@@ -1990,8 +1969,8 @@ strong {
 
 
   /**
-* ABOUT
-*/
+   * ABOUT
+   */
 
   /* service */
 
@@ -2015,8 +1994,8 @@ strong {
 
 
   /**
-* PORTFOLIO
-*/
+   * PORTFOLIO
+   */
 
   .project-list {
     grid-template-columns: repeat(3, 1fr);
@@ -2025,8 +2004,8 @@ strong {
 
 
   /**
-* BLOG
-*/
+   * BLOG
+   */
 
   .blog-banner-box {
     height: 230px;
@@ -2039,14 +2018,14 @@ strong {
 
 
 /**
-* responsive larger than 1250px screen
-*/
+ * responsive larger than 1250px screen
+ */
 
 @media (min-width: 1250px) {
 
   /**
-* RESET
-*/
+   * RESET
+   */
 
   body::-webkit-scrollbar {
     width: 20px;
@@ -2075,8 +2054,8 @@ strong {
 
 
   /**
-* REUSED STYLE
-*/
+   * REUSED STYLE
+   */
 
   .sidebar,
   article {
@@ -2090,8 +2069,8 @@ strong {
 
 
   /**
-* MAIN
-*/
+   * MAIN
+   */
 
   main {
     max-width: 1200px;
@@ -2111,8 +2090,8 @@ strong {
 
 
   /**
-* SIDEBAR
-*/
+   * SIDEBAR
+   */
 
   .sidebar {
     position: sticky;
@@ -2130,10 +2109,6 @@ strong {
 
   .avatar-box img {
     width: 150px;
-    height: 150px;
-    object-fit: cover;
-    object-position: top;
-    border-radius: 30px;
   }
 
   .info-content .name {
@@ -2178,12 +2153,14 @@ strong {
     justify-content: start;
   }
 
+
+
+  /**
+	 * RESUME
+	 */
+
   .timeline-text {
     max-width: 700px;
   }
 
-  p#status-msg {
-    color: #49e649;
-    padding-bottom: 10px;
-  }
 }

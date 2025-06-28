@@ -157,3 +157,22 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  emailjs.init("YwG4rMjBPW6rhg6HV"); // Use your actual public key
+
+  document.getElementById('contact-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_mhlhm1i', 'template_b0tohzw', this)
+      .then(function () {
+        document.getElementById("status-msg").textContent = "Message sent successfully!";
+      }, function (error) {
+        document.getElementById("status-msg").textContent = "Failed to send message.";
+        console.error("EmailJS error:", error);
+      });
+
+    this.reset();
+  });
+});
+
